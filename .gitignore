@@ -1,11 +1,11 @@
 /vendor
-
 /logs
-
+/node_modules
+/public/uploads
 composer.phar
-
 composer.lock
-
 .DS_Store
-
 Thumbs.db
+/.idea
+/.vscode
+/.vagrant
