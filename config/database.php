@@ -3,9 +3,9 @@
 return [
   'driver'    => 'mysql',
   'host'      => '127.0.0.1',
-  'database'  => 'mydb',
+  'database'  => 'tinyme',
   'username'  => 'root',
-  'password'  => 'LLawliet',
+  'password'  => '',
   'charset'   => 'utf8',
   'collation' => 'utf8_general_ci',
   'prefix'    => ''
