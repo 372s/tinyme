@@ -77,7 +77,7 @@ class Kernel implements HttpKernel
   protected function commands() {}
 
   protected function logError(Throwable $exception) {
-    var_dump($exception);die;
+    // var_dump($exception);die;
     $formattedException = array(
       'class' => get_class($exception),
       'message' => $exception->getMessage(),
